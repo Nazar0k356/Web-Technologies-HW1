@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teacher Add Form</title>
+    </head>
+
+    <body>
+        <form action="URL_handler" method="post/get" enctype="multipart/form-data">
+            <div> 
+              <input type="text" name="username" placeholder="Введіть ваше ім'я" required> 
+            </div>
+
+            <div>
+                <p>Оберіть стать<p\>
+                <select name="gender">
+                    <option value="male">Чоловік</option>
+                    <option value="female">Жінка</option>
+                    <option value="other">Інше</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Введіть дату народження<p\>
+                <input type="text" name="day" placeholder="День" required> 
+                <input type="text" name="month" placeholder="Місяць" required> 
+                <input type="text" name="year" placeholder="Рік" required> 
+            </div>
+
+            <div> 
+              <input type="text" name="e-mail" placeholder="Введіть ваш e-mail" required> 
+            </div> 
+
+            <div> 
+                <input type="text" name="telephone" placeholder="Введіть ваш номер телефону" required> 
+            </div> 
+
+            <div>
+                <p>Оберіть бажаний колір фону<p\>
+                <select name="color">
+                    <option value="black">Чорний</option>
+                    <option value="white">Білий</option>
+                    <option value="gray">Сірий</option>
+                </select>
+            </div>
+
+            <div> 
+                <input type="text" name="country" placeholder="Введіть вашу країну" required> 
+            </div> 
+
+            <div> 
+                <input type="text" name="city" placeholder="Введіть ваше місто" required> 
+            </div>   
+
+            <div> 
+                <input type="text" name="comment" placeholder="Напишіть коментар" required> 
+            </div> 
+
+            <div> 
+              <button type="submit">Відправити</button> 
+            </div>  
+        </form>
+    </body>
+</html>
